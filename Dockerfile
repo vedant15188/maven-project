@@ -1,5 +1,4 @@
-FROM tomcat:jdk14-openjdk-buster
-
+FROM tomcat:latest
 WORKDIR /home/
 
 COPY pom.xml ./maven-project/pom.xml
